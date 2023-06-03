@@ -32,6 +32,12 @@ footer {
   width: 100%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  z-index: 1030;
+}
+
+.navbar-toggler {
+  border: 2px solid var(--color1);
+  color: var(--color1);
 }
 
 .navbar-collapse {
